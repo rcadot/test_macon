@@ -95,10 +95,10 @@ Le prix au m² est réalisé en prenant les valeurs suivantes : `valeur foncièr
     )
 
 st.subheader("📊 Évolution des prix")
-st.write(
-    """
-         > une représentation de l'évolution des prix de ventes des terrains nus, comparée à l'évolution des prix de vente des maisons, des appartements et des surfaces destinées aux activités commerciales."""
-)
+# st.write(
+#     """
+#          > une représentation de l'évolution des prix de ventes des terrains nus, comparée à l'évolution des prix de vente des maisons, des appartements et des surfaces destinées aux activités commerciales."""
+# )
 st.markdown("""**Choix les filtres**""")
 st.markdown("""_Les filtres sont cumulatifs_""")
 
@@ -238,15 +238,15 @@ st.divider()
 # graph 2
 st.subheader("📊 Évolution des prix par typologie de territoire")
 
-st.write(
-    """
-> On ne s'éloignerait pas trop de sur ce quoi nous avions échangé, mais il faudrait avoir à la fois les variations de prix par classe de densité INSEE en fonction de la position de la commune par rapport à l'aire d'attractivité avec 3 type d'agrégation par aire d'attraction, par région et par catégories d'aire d'attraction.
->
-> Est-ce que vous pensez qu'il est possible de séparer les terrains nus selon leur taille? Il me semble que le choix de départ était d'évaluer les variations de 100m² a 2000m², on pourrait prendre 3 segments pour les terrains, petits, moyens et grands en fonction des terciles des surfaces vendues.
->
-> Je pense que ça peut valoir le coup d'avoir l'évolution sur la totalité de la plage disponible (2010-2023) quitte à raboter à postériori les résultats.
-"""
-)
+# st.write(
+#     """
+# > On ne s'éloignerait pas trop de sur ce quoi nous avions échangé, mais il faudrait avoir à la fois les variations de prix par classe de densité INSEE en fonction de la position de la commune par rapport à l'aire d'attractivité avec 3 type d'agrégation par aire d'attraction, par région et par catégories d'aire d'attraction.
+# >
+# > Est-ce que vous pensez qu'il est possible de séparer les terrains nus selon leur taille? Il me semble que le choix de départ était d'évaluer les variations de 100m² a 2000m², on pourrait prendre 3 segments pour les terrains, petits, moyens et grands en fonction des terciles des surfaces vendues.
+# >
+# > Je pense que ça peut valoir le coup d'avoir l'évolution sur la totalité de la plage disponible (2010-2023) quitte à raboter à postériori les résultats.
+# """
+# )
 
 rcol1, rcol2, rcol3, rcol4, rcol5 = st.columns([1, 1, 1, 1, 2])
 
@@ -319,11 +319,11 @@ st.divider()
 # graph 3
 st.subheader("📊 Évolution des flux")
 
-st.write(
-    """
-> D'autre part, une analyse de l'évolution des flux (monétaires, surfaciques et en nombre) d'échanges sur les terrains pour objectiver les comportements et notamment, s'il existe un effondrement des acquisitions, avec une représentation des évolutions des flux en fonction de la position de la commune rapport à l'aire d'attractivité avec 3 échelles d'agrégations (région, Aire d'attraction et type d'aire d'attraction). On peut partir sur la période 2020-2023.
-"""
-)
+# st.write(
+#     """
+# > D'autre part, une analyse de l'évolution des flux (monétaires, surfaciques et en nombre) d'échanges sur les terrains pour objectiver les comportements et notamment, s'il existe un effondrement des acquisitions, avec une représentation des évolutions des flux en fonction de la position de la commune rapport à l'aire d'attractivité avec 3 échelles d'agrégations (région, Aire d'attraction et type d'aire d'attraction). On peut partir sur la période 2020-2023.
+# """
+# )
 
 
 scol1, scol2, scol3, scol4, scol5 = st.columns([1, 1, 1, 1, 2])
